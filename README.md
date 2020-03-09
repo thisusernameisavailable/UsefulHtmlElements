@@ -10,5 +10,5 @@ In order to get the p element, you would write this:
 var popUp = document.getElementById("hello").shadowRoot;
 var p = popUp.getElementById("hi");
 Make sense?
-## <pop-up>
+## \<pop-up>
 In order to use the popup element, type <pop-up></pop-up> The stuff to display inside the box goes in the custom element. This element has one custom attribute: button-id. The button-id attribute gives the button used to show the popup an id. 
